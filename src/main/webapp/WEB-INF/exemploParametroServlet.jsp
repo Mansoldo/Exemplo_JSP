@@ -17,5 +17,10 @@
         <p>Idade: <c:out value="${idadeAttr}"/></p>
         <p>Info:  <c:out value="${infoAttr}"/></p>
 
+        <hr>
+        <h2>Dados recuperados direto usando EL</h2>
+        <p>Nome:  <c:out value="${param.nome}"/></p>
+        <p>Idade: <c:out value="${param.idade}"/></p>
+        <p>Info:  <c:out value="${param.info}"/></p>
     </body>
 </html>
